@@ -144,4 +144,22 @@ width: 30px;
     text-align: center;
     margin-bottom: 20px;
 }
+#popular{
+    font-size: 25px;
+    margin-left: 25px;
+}
+.images{
+    height: 180px;
+    width: 180px;
+}
+.section3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    position: relative;
+    left: 25px;
+}
+.row1{
+    font-size: 18px;
+}
 
