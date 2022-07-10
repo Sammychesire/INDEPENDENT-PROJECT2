@@ -19,6 +19,7 @@ body{
 .logo{
     color: white;
     font-family: poppins;
+    font-size: 30px;
 
 }
 .menu ul{
@@ -39,7 +40,7 @@ body{
 }
 ul li a{
     color: white;
-    font-size: 15px;
+    font-size: 16px;
     text-decoration: none;
 }
 .btn{
@@ -55,7 +56,7 @@ ul li a{
 }
 a:after{
     content: "";
-    position: absolute;
+    position: relative;
     background-color: #ED661F;
     height: 2px;
     width: 30px;
@@ -65,8 +66,10 @@ a:after{
 a:hover:after{
 width: 30px;
 }
-.background{
-    background-image: url("/home/moringa/Documents/moringaprojects/project2/assets/images/image1.png");
+.leading{
+    margin-top: 20px;
+    background-image: url("../assets/images/image.png");
+    background-size: contain;
 }
 #img1{
     height: 300px;
@@ -105,11 +108,12 @@ width: 30px;
     justify-content: space-between;
     width: 500px;
     height: 80px;
-    border: 2px solid black;
+    border: 0px solid black;
     position: relative;
     left: 250px;
-    background-color: whitesmoke;
+    background-color: white;
     box-shadow: 0px 10px lightgrey;
+    top: -60px;
 }
 .hover{
     margin: 10px;
