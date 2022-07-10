@@ -2,6 +2,9 @@ body{
     margin: auto;
     width: 80%;
 }
+@media(min-width: 480px){
+
+}
     *,
 *::before,
 *::after {
@@ -43,6 +46,9 @@ ul li a{
     font-size: 16px;
     text-decoration: none;
 }
+ul li a:hover{
+    color: #ED661F;
+}
 .btn{
     width: 100px;
     height: 45px;
@@ -54,17 +60,8 @@ ul li a{
     color: white;
     margin-right: 20px;
 }
-a:after{
-    content: "";
-    position: relative;
-    background-color: #ED661F;
-    height: 2px;
-    width: 30px;
-    left: 190px;
-    bottom: 50px;
-}
-a:hover:after{
-width: 30px;
+.btn:hover{
+    color: orangered;
 }
 .leading{
     margin-top: 20px;
@@ -103,6 +100,9 @@ width: 30px;
     border: 0px solid black;
     border-radius: 5px;
 }
+#explore:hover{
+    color: orangered;
+}
 .hovbar{
     display: flex;
     justify-content: space-between;
@@ -133,6 +133,9 @@ width: 30px;
     font-size: 25px;
     margin-bottom: 30px;
 }
+#exist:hover{
+    color: #ED661F;
+}
 .why{
     position: relative;
     left: 25px;
@@ -145,6 +148,9 @@ width: 30px;
     margin-bottom: 25px;
     font-size: 25px;
 }
+#categories:hover{
+    color: #ED661F;
+}
 #p3{
     text-align: center;
     margin-bottom: 20px;
@@ -152,6 +158,9 @@ width: 30px;
 #popular{
     font-size: 25px;
     margin-left: 25px;
+}
+#popular:hover{
+    color: #ED661F;
 }
 .images{
     height: 180px;
@@ -171,6 +180,9 @@ width: 30px;
     margin-top: 20px;
     font-size: 25px;
     margin-left: 25px;
+}
+#new:hover{
+    color: #ED661F;
 }
 .section4{
     display: flex;
@@ -193,11 +205,14 @@ font-weight: 900;
 #see{
     margin-right: 10px;
 }
+#see:hover{
+    color: #ED661F;
+}
 #shadow{
+    border: 1px solid grey;
     margin-top: 40px;
-    box-shadow: 0px 20px blue;
-    position: relative;
-    left: 50px;
+    margin-bottom: 30px;
+    box-shadow: 0px 10px 10px 5px lightgrey;
 }
 #what{
     font-size: 25px;
@@ -245,12 +260,21 @@ font-weight: 900;
     margin-right: 10px;
     font-size: 20px;
 }
+#more:hover{
+    color: #ED661F;
+}
 #one{
     color: gray;
+}
+#what:hover{
+    color: #ED661F;
 }
 .ratings{
     margin-top: 20px;
     margin-left: 70px;
+}
+.customers:hover{
+    color: #ED661F;
 }
 .section6{
     margin-top: 30px;
